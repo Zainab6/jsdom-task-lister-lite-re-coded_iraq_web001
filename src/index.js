@@ -9,7 +9,7 @@ function addToDo() {
   list.innerHTML = `${input}`;
   const uList = document.getElementById("tasks");
   
-  uList.appendChild("list");
+  uList.appendChild(list);
   
 }
   });
