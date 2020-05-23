@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
 function addToDo() {
   const list= document.createElement("li");
   const input = document.getElementById("new-task-description").value;
-  
-  const uList = document.getElementById("tasks");
   list.innerHTML = `${input}`;
+  const uList = document.getElementById("tasks");
+  
   uList.appendChild("list");
   
 }
