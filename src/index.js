@@ -8,8 +8,7 @@ function addToDo() {
   const input = document.getElementById("new-task-description").value;
   list.innerHTML = `${input}`;
   const uList = document.getElementById("tasks");
-  
   uList.appendChild(list);
   
 }
-  });
+})
