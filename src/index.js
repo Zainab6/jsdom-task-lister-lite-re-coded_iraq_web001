@@ -3,6 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("submit").addEventListener("click",function() {
     event.preventDefault();
   })
+
+})
+
 function addToDo() {
   const list= document.createElement("li");
   const input = document.getElementById("new-task-description").value;
@@ -11,4 +14,3 @@ function addToDo() {
   uList.appendChild(list);
   
 }
-})
